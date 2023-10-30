@@ -12,6 +12,8 @@ let user2= User{
     ..user1
 };
 println!("the second user's email adress is {}",user2.email);
+println!(" {}",user1.email);
+println!("{}",user2.username);
 }
 fn build_user(email:String, username:String)->User{
     User{
